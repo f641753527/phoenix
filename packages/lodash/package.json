@@ -1,0 +1,29 @@
+{
+  "name": "@phoenix_fan/lodash",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "test": "jest",
+    "test-c": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "e8a83935f8dc7adbb993ff107ee6db1a5628b2ae"
+}

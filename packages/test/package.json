@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Phoenix <641753527@qq.com>",
+  "homepage": "https://github.com/f641753527/phoenix#readme",
+  "license": "ISC",
+  "main": "lib/test.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f641753527/phoenix.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "webpack serve --mode='development'",
+    "build": "webpack --mode='production'"
+  },
+  "bugs": {
+    "url": "https://github.com/f641753527/phoenix/issues"
+  },
+  "dependencies": {
+    "@phoenix_fan/lodash": "^1.0.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
