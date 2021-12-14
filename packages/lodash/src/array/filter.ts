@@ -1,12 +1,11 @@
-interface CallbackFnType<T> {
-  (item: T, i: number, source: T[]): boolean
+export interface IFilterIteratorCallBackType<T=any> {
+  (item: T, index: number, list: T[]): boolean
+}
+export interface IFilterType<T=any> {
+  (arr: T[], cb: IFilterIteratorCallBackType<T>): T[]
 }
 
-export interface FilterFnType<T=any> {
-  (sourceArray: T[], fn: CallbackFnType<T>): T[]
-}
-
-const filter = <T=any>(sourceArray: T[], callback: CallbackFnType<T>): T[] => {
+const filter = <T>(sourceArray: T[], callback: IFilterIteratorCallBackType<T>) => {
   const filteredArray = []
   for(let i = 0; i < sourceArray.length; i++) {
     const item = sourceArray[i]

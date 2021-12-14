@@ -6,10 +6,6 @@
   "homepage": "",
   "license": "ISC",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
     "dist"
   ],
@@ -17,12 +13,13 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "jest": "^27.4.3"
+    "jest": "^27.4.3",
+    "tsup": "^5.11.3"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "e8a83935f8dc7adbb993ff107ee6db1a5628b2ae",
+  "gitHead": "4b403b0db702f391f3aa9968c16484b8d468e655",
   "repository": {
     "type": "git",
     "url": "git@github.com:f641753527/phoenix.git",

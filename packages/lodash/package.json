@@ -3,27 +3,27 @@
   "version": "1.0.1",
   "description": "",
   "private": false,
-  "main": "lib/index.js",
-  "module": "lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
-    "build": "rm -rf lib && tsc",
-    "build:cjs": "tsc -p tsconfig.cjs.json",
-    "test": "jest",
-    "test-c": "jest --coverage"
+    "build": "tsup index.ts --format cjs,esm  --dts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^27.0.3",
-    "jest": "^27.4.3",
-    "ts-jest": "^27.1.1",
-    "typescript": "^4.5.2"
+    "tsup": "^5.11.2",
+    "typescript": "^4.5.3"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "a142fbc7dcaa2a79263087d59030eb1b0863ba9c"
+  "gitHead": "4b403b0db702f391f3aa9968c16484b8d468e655"
 }

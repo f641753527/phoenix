@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "@phoenix_fan/test",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Phoenix <641753527@qq.com>",
@@ -30,5 +30,5 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
   },
-  "gitHead": "a142fbc7dcaa2a79263087d59030eb1b0863ba9c"
+  "gitHead": "4b403b0db702f391f3aa9968c16484b8d468e655"
 }
