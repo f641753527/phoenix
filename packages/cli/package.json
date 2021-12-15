@@ -21,7 +21,9 @@
     "url": "https://github.com/f641753527/phoenix/issues"
   },
   "devDependencies": {
-    "commander": "^8.3.0"
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "open": "^8.4.0"
   },
   "publishConfig": {
     "access": "public"
