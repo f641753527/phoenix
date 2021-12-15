@@ -5,6 +5,7 @@
   "author": "Phoenix <641753527@qq.com>",
   "homepage": "",
   "license": "ISC",
+  "private": false,
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -20,7 +21,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "4b403b0db702f391f3aa9968c16484b8d468e655",
+  "gitHead": "d4f2e581ecc055899af509f73bda8ccc3602caf4",
   "repository": {
     "type": "git",
     "url": "git@github.com:f641753527/phoenix.git",
