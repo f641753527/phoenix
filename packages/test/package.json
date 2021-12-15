@@ -1,6 +1,6 @@
 {
   "name": "@phoenix_fan/test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "Phoenix <641753527@qq.com>",
   "homepage": "https://github.com/f641753527/phoenix#readme",
@@ -22,8 +22,8 @@
     "url": "https://github.com/f641753527/phoenix/issues"
   },
   "dependencies": {
-    "@phoenix_fan/fetch": "^1.0.3",
-    "@phoenix_fan/lodash": "^1.0.3"
+    "@phoenix_fan/fetch": "^1.0.5",
+    "@phoenix_fan/lodash": "^1.0.4"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
