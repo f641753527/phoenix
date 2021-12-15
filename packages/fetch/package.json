@@ -21,7 +21,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "1d11e2d07c204d44128dad2498058244685354fa",
+  "gitHead": "a04d741db029e4c22ea8edae6633ae5793b57681",
   "repository": {
     "type": "git",
     "url": "git@github.com:f641753527/phoenix.git",

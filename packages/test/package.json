@@ -5,6 +5,7 @@
   "author": "Phoenix <641753527@qq.com>",
   "homepage": "https://github.com/f641753527/phoenix#readme",
   "license": "ISC",
+  "private": false,
   "main": "lib/test.js",
   "files": [
     "lib"
@@ -31,5 +32,8 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
   },
-  "gitHead": "1d11e2d07c204d44128dad2498058244685354fa"
+  "gitHead": "a04d741db029e4c22ea8edae6633ae5793b57681",
+  "publishConfig": {
+    "access": "public"
+  }
 }
