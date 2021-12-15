@@ -1,6 +1,6 @@
 {
   "name": "@phoenix_fan/fetch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "Phoenix <641753527@qq.com>",
   "homepage": "",
@@ -21,7 +21,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "d4f2e581ecc055899af509f73bda8ccc3602caf4",
+  "gitHead": "1d11e2d07c204d44128dad2498058244685354fa",
   "repository": {
     "type": "git",
     "url": "git@github.com:f641753527/phoenix.git",
