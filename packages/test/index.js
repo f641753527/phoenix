@@ -1,5 +1,15 @@
-var a = require('@phoenix_fan/lodash')
-// import { map } from '@phoenix_fan/lodash'
+var http = require('@phoenix_fan/fetch')
 
-console.log(a)
+const baseUrl = 'https://mock.mengxuegu.com/mock/61b9aed2ca09cb42105ae342'
 
+http.get(`${baseUrl}/api/test`, {
+  params: {
+    a: 6
+  }
+})
+
+http.post(`${baseUrl}/api/test`, {
+  data: {
+    b: 8
+  }
+})

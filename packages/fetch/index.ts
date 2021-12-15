@@ -1,5 +1,3 @@
-import { filter } from '@phoenix/lodash'
+import httpRequest from './src/index'
 
-console.log(filter)
-
-export default filter
+module.exports = httpRequest

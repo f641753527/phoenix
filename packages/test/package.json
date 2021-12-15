@@ -22,6 +22,7 @@
     "url": "https://github.com/f641753527/phoenix/issues"
   },
   "dependencies": {
+    "@phoenix_fan/fetch": "^1.0.1",
     "@phoenix_fan/lodash": "^1.0.1"
   },
   "devDependencies": {

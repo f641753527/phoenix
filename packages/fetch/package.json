@@ -5,16 +5,17 @@
   "author": "Phoenix <641753527@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsup index.ts --format cjs,esm  --dts"
   },
   "devDependencies": {
     "jest": "^27.4.3",
-    "tsup": "^5.11.3"
+    "tsup": "^5.11.3",
+    "typescript": "^4.5.4"
   },
   "publishConfig": {
     "access": "public"
