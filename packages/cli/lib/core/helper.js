@@ -1,9 +1,9 @@
-var { program } = require('commander')
+var { program, Option } = require('commander')
 
 const optionHelper = () => {
   program
     .option('-d --dest <dest>', 'destination file localtion')
-    // .option('-t --template <tmpname>', 'project template name')
+    .addOption(new Option('-t --template <template>', 'project template name').choices(['vue', 'react']))
 }
 
 module.exports = {

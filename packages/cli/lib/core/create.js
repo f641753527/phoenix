@@ -1,13 +1,22 @@
 var { program } = require('commander');
-var { createAction } = require('./actions')
+var { createAction, addComponentAction } = require('./actions')
 
 const createCommands = () => {
   program
     .command('create')
     .argument('<project>', 'project name')
-    .option('-t, --template <template>', 'add the specified template of project')
     .description('cleate a repository into local')
-    .action(createAction)
+    .action((project) => {
+      createAction(project, program.opts().template)
+    })
+
+  program
+    .command('addComp')
+    .argument('<compName>', 'project name')
+    .description('add vue component')
+    .action((compName) => {
+      addComponentAction(compName, program.opts().dest)
+    })
 }
 
 module.exports = createCommands
